@@ -18,19 +18,3 @@
     <div class="container" style="max-width: 600px;">
         <h2 class="text-primary fw-bold text-center mb-4">Catatan Harian sederhana 📔</h2>
         
-        <div class="card shadow-sm mb-4">
-            <div class="card-body">
-                <input type="date" id="tanggal" class="form-control mb-3">
-                <textarea id="isiCatatan" class="form-control mb-3" rows="4" placeholder="Apa yang terjadi hari ini?"></textarea>
-                <button id="btnSimpan" class="btn btn-primary w-100 fw-bold">Simpan Catatan</button>
-            </div>
-        </div>
-
-        <h5 class="fw-bold text-secondary">Riwayat Catatan:</h5>
-        <div id="daftarCatatan" class="d-flex flex-column gap-3 mt-3">
-            </div>
-    </div>
-    <script src="script.js"></script>
-<footer>Dibuat oleh Partner</footer>
-</body>
-</html>
